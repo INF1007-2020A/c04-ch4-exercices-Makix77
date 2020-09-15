@@ -8,8 +8,8 @@ def is_even_len(string: str) -> bool:
 
 def remove_third_char(string: str) -> str:
     newChar = ''
-    for c in range(0, len(str)):
-        print(str[c])
+    for c in range(0, len(string)):
+        print(string[c])
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
