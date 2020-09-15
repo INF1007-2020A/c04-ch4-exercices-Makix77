@@ -8,7 +8,7 @@ def is_even_len(string: str) -> bool:
 
 def remove_third_char(string: str) -> str:
     newChar = ''
-    for c in range(0, len(str))
+    for c in range(0, len(str)):
         print(str[c])
 
 
