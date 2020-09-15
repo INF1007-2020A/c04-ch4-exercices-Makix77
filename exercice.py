@@ -23,7 +23,7 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    pass
+    return string.count
 
 
 def main() -> None:
