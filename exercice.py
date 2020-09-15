@@ -9,7 +9,7 @@ def is_even_len(string: str) -> bool:
 def remove_third_char(string: str) -> str:
     newChar = ''
     for c in range(0, len(string)):
-        if c != 3:
+        if c != 2:
             newChar += string[c]
     return newChar
 
